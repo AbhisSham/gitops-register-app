@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-         mage: sham130621/register-app-pipeline
+          image: sham130621/register-app-pipeline
           resources:
             limits:
               memory: "256Mi"
